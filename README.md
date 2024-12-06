@@ -13,5 +13,5 @@ git commit -m "folder name"
 git remote add origin <https....>  
 git push -u origin master  
   
-git push origin -d <branch...>  # delete remote branch
+git push origin -d <branch...>  # delete remote branch  
 git branch -D <branch...> # Force-delete un-merged local branches  
