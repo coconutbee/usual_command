@@ -13,4 +13,4 @@ git commit -m "folder name"
 git remote add origin <https....>  
 git push -u origin master  
   
-git push origin -d <branch>  
+git push origin -d <branch...>  
