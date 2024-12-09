@@ -2,14 +2,14 @@
 conda remove -n ENV_NAME --all  
 conda create --name myenv python=3.10
 
-# git
+# git clone lfs  
 git lfs install  
 git clone <https....>
 
-# git bash
-git init  
-git add README.md  
-git commit -m "folder name"  
+# git 上傳工作區檔案  
+git init  # 在本地建立git工作區  
+git add "folder" # 將工作區資料夾上傳到暫存區    
+git commit -m "folder name"  # 將暫存區檔案上傳到repo  
 git remote add origin <https....>  
 git push -u origin master  
   
