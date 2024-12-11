@@ -4,8 +4,8 @@ conda create -n ENV_NAME python=3.10
 
 # python venv
 python3 -s -m venv <env_name>  
-source .sd3.5/bin/activate  # linux activate
-.sd3.5\Scripts\activate  # window activate
+source .sd3.5/bin/activate  # linux activate  
+.sd3.5\Scripts\activate  # window activate  
 deactivate  
 
 # nvidia
