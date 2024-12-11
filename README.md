@@ -12,7 +12,7 @@ git clone <https....>
 # git 上傳工作區檔案  
 git init  # 在本地建立git工作區  
 git add "folder" # 將工作區資料夾上傳到暫存區    
-git commit -m "folder name"  # 將暫存區檔案上傳到repo  
+git commit -m "folder name"  # 將暫存區檔案上傳到本地repo  
 git remote add origin <https....>  
 git push -u origin main    
   
