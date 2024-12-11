@@ -3,7 +3,7 @@ conda remove -n ENV_NAME --all
 conda create -n ENV_NAME python=3.10
 
 # nvidia
-watch -n 1 nvidia-smi  
+watch -n 1 nvidia-smi  # watch GPU status
 
 # git clone lfs  
 git lfs install  
