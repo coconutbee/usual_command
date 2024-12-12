@@ -15,13 +15,16 @@ watch -n 1 nvidia-smi  # watch GPU status
 git lfs install  
 git clone <https....>
 
-# git 上傳工作區檔案  
+# git 創建/上傳工作區檔案  
+```bash
 git init  # 在本地建立git工作區  
+git add README.md  
 git add "folder" # 將工作區資料夾上傳到暫存區    
 git commit -m "folder name"  # 將暫存區檔案上傳到本地repo  
-git remote add origin <https....>  
-git push -u origin main    
-  
+git remote add origin <https....>  #添加organize的遠端repo
+git push -u origin main     
+```
+# git remove branch  
 git push origin -d <branch...>  # delete remote branch  
 git branch -D <branch...> # Force-delete un-merged local branches  
 
