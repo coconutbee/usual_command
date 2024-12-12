@@ -38,6 +38,12 @@ git push origin -d <branch...>  # delete remote branch
 git branch -D <branch...> # Force-delete un-merged local branches  
 ```
 
+# git usual command  
+```bash
+git status  
+git log  
+```
+
 # Download sd3.5 model by ssh way  
 1. if you don't have a ssh key on hugging face:  
    1.  ssh-keygen -t rsa -b 4096 -C "your_email@example.com" # generate a key  
