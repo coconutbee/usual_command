@@ -1,19 +1,27 @@
 # conda
+```bash
 conda remove -n ENV_NAME --all  
 conda create -n ENV_NAME python=3.10
+```
 
 # python venv
-python3 -s -m venv <env_name>  
+```bash
+python3 -s -m venv "env_name"  
 source .sd3.5/bin/activate  # linux activate  
 .sd3.5\Scripts\activate  # window activate  
 deactivate  
+```
 
 # nvidia
+```bash
 watch -n 1 nvidia-smi  # watch GPU status
+```
 
 # git clone lfs  
+```bash
 git lfs install  
 git clone <https....>
+```
 
 # git 創建/上傳工作區檔案  
 ```bash
@@ -21,12 +29,14 @@ git init  # 在本地建立git工作區
 git add README.md  
 git add "folder" # 將工作區資料夾上傳到暫存區    
 git commit -m "folder name"  # 將暫存區檔案上傳到本地repo  
-git remote add origin <https....>  #添加organize的遠端repo
+git remote add origin "https...."  #添加organize的遠端repo
 git push -u origin main     
 ```
 # git remove branch  
+```bash
 git push origin -d <branch...>  # delete remote branch  
 git branch -D <branch...> # Force-delete un-merged local branches  
+```
 
 # Download sd3.5 model by ssh way  
 1. if you don't have a ssh key on hugging face:  
