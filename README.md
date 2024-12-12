@@ -44,6 +44,7 @@ git status
 git log  
 git rm "file"
 git checkout "Branch name"
+git branch # check all branch
 ```
 
 # Download sd3.5 model by ssh way  
