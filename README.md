@@ -42,6 +42,8 @@ git branch -D <branch...> # Force-delete un-merged local branches
 ```bash
 git status  
 git log  
+git rm "file"
+git checkout "Branch name"
 ```
 
 # Download sd3.5 model by ssh way  
