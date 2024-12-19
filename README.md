@@ -32,6 +32,14 @@ git commit -m "folder name"  # 將暫存區檔案上傳到本地repo
 git remote add origin "https...."  #添加organize的遠端repo
 git push -u origin main     
 ```
+# git 抓資料下來
+```bash
+git fetch "branch name" # 將最新進度加到本地端
+git fetch [遠端節點名稱] [branch name]
+git branch -r # 檢查remote branch
+git push [遠端節點名稱] [branch name] # 將本地版本上傳到遠端合併
+```
+
 # git remove branch  
 ```bash
 git push origin -d <branch...>  # delete remote branch  
