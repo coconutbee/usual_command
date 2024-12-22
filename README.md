@@ -41,6 +41,11 @@ deactivate
 ```bash
 watch -n 1 nvidia-smi  # watch GPU status
 ```
+# Memory Status
+### - memory
+```bash
+free -hw
+```
 
 # Git Commands
 ###  - git clone lfs  
