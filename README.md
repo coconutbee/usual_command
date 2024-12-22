@@ -2,6 +2,8 @@
 ```bash
 conda remove -n ENV_NAME --all  
 conda create -n ENV_NAME python=3.10
+conda clean --all # 清理cache
+pip cache purge # 清理 Pip cachea
 ```
 
 # python venv
