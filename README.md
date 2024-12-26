@@ -61,7 +61,7 @@ git branch # check all branch
 1. if you don't have a ssh key on hugging face:  
    1.  ssh-keygen -t rsa -b 4096 -C "your_email@example.com" # generate a key  
    2.  cat ~/.ssh/id_rsa.pub # copy the content starting with "ssh-rsa" till the end  
-   3.  paste your key on "SSH & GPG Keys" -> "Add SSH Key"  
+   3.  paste your key on "SSH & GPG Keys" -> 路徑:"頭像" ->  "SSH and GPG Keys" 
 2. git lfs install  
 3. git clone git@hf.co:stabilityai/stable-diffusion-3.5-large  
 
