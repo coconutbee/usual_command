@@ -27,6 +27,11 @@ conda env export --no-builds > freeze.yml
 ```python
 conda env create -f freeze.yml
 ```
+# Pip freeze env
+### - pip
+```bash
+pip freeze > requirements.txt
+```
 
 # Python Virtual Environment
 ###  - python venv
