@@ -27,6 +27,12 @@ conda env export --no-builds > freeze.yml
 ```python
 conda env create -f freeze.yml
 ```
+
+### - conda clean cache
+```python
+conda clean --all
+```
+
 # Pip freeze env
 ### - pip
 ```bash
