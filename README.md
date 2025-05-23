@@ -1,3 +1,18 @@
+# Nohub Command MEMO
+### - background execution
+```python
+nohup python MiVOLO/demo.py --input SelfAge/image/real > nohup.out &
+```
+
+### - check process
+```python
+tail -f nohup.out
+```
+### - stop process
+```python
+kill <pid>
+```
+
 # Conda Env Command MEMO
 ###  - conda create env
 ```python
