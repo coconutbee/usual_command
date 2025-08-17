@@ -40,7 +40,7 @@ conda env export --no-builds > freeze.yml
 ```
 ###  - conda create env with yml file (freeze.yml)
 ```python
-conda env create -f freeze.yml
+conda env create -n [myENV] --file arcface.yml
 ```
 
 ### - conda clean cache
