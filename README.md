@@ -1,3 +1,17 @@
+# Clean Memory
+### - Page Cache Clear Command
+```python
+sudo sh -c 'echo 1 >/proc/sys/vm/drop_caches'
+```
+### - Directory and Index Node Clear Command
+```python
+sudo sh -c 'echo 2 >/proc/sys/vm/drop_caches'
+```
+### - Page cache, dentries, and inode flush commands
+```python
+sudo sh -c 'echo 3 >/proc/sys/vm/drop_caches'
+```
+
 # Nohub Command MEMO
 ### - background execution
 ```python
